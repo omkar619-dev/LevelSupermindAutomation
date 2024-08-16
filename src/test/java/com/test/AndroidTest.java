@@ -16,7 +16,7 @@ import java.net.URL;
 import java.time.Duration;
 
 public class AndroidTest {
-    @Test
+    @Test1
     public void androidLaunchLoginTest() throws MalformedURLException, InterruptedException {
 //        UiAutomator2Options options = new UiAutomator2Options();
 //        options.setPlatformName("Android");
@@ -50,7 +50,7 @@ public class AndroidTest {
         }
         Thread.sleep(4000);
     }
-    @Test
+    @Test2
     public void androidInvalidLoginTest() throws MalformedURLException, InterruptedException {
 //        UiAutomator2Options options = new UiAutomator2Options();
 //        options.setPlatformName("Android");
